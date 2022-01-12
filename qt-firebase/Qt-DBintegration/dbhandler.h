@@ -9,7 +9,7 @@ class DBHandler : public QObject
 {
     Q_OBJECT
 public:
-    explicit DBHandler(QObject *parent = nullptr);
+    explicit DBHandler(QObject *parent = nullptr,bool addToDB = false);
     ~DBHandler();
 public slots:
     void networkReplyReadyRead();

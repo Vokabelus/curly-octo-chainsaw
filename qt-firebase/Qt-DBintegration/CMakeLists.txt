@@ -20,6 +20,8 @@ add_executable(Qt-DBintegration
   main.cpp
   dbhandler.cpp
   dbhandler.h
+  authdbhandler.cpp
+  authdbhandler.h
 )
 target_link_libraries(Qt-DBintegration Qt${QT_VERSION_MAJOR}::Core)
 target_link_libraries(Qt-DBintegration Qt${QT_VERSION_MAJOR}::Network)
